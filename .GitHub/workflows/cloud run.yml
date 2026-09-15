@@ -12,7 +12,7 @@ permissions:
 env:
   PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
   REGION: asia-south1
-  REPOSITORY: app-repo
+  REPOSITORY: workload-cicd-testing
   SERVICE: sample-app
 
 jobs:
